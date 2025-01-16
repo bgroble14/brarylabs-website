@@ -35,9 +35,9 @@ function App() {
             <div className="flex items-center space-x-3">
               <div className="flex items-center group">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
+                  className="h-8 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
                 />
               </div>
             </div>
@@ -87,9 +87,9 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto mix-blend-multiply"
+                  className="h-7 w-auto mix-blend-multiply"
                 />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-md">

@@ -37,7 +37,7 @@ function App() {
                 <img 
                   src="/logo-transparent.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
+                  className="h-8 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
                 />
               </div>
             </div>
@@ -89,7 +89,7 @@ function App() {
                 <img 
                   src="/logo-transparent.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto mix-blend-multiply"
+                  className="h-7 w-auto mix-blend-multiply"
                 />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-md">

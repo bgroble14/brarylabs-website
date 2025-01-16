@@ -35,10 +35,13 @@ function App() {
             <div className="flex items-center space-x-3">
               <div className="flex items-center group">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
+                  className="h-8 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
                 />
+                <span className="text-2xl font-bold ml-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                  BraryLabs
+                </span>
               </div>
             </div>
             <div className="flex space-x-8">
@@ -87,10 +90,13 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-20 w-auto mix-blend-multiply"
+                  className="h-7 w-auto mix-blend-multiply"
                 />
+                <span className="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
+                  BraryLabs
+                </span>
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-md">
                 Making library management simple and efficient for the modern world.
