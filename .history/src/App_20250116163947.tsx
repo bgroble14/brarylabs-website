@@ -37,7 +37,7 @@ function App() {
                 <img 
                   src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-8 w-auto transform group-hover:scale-110 transition-transform duration-300 [filter:brightness(0)_saturate(100%)_invert(37%)_sepia(98%)_saturate(1401%)_hue-rotate(213deg)_brightness(101%)_contrast(101%)]"
+                  className="h-8 w-auto transform group-hover:scale-110 transition-transform duration-300"
                 />
                 <span className="text-2xl font-bold ml-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
                   BraryLabs
@@ -92,7 +92,7 @@ function App() {
                 <img 
                   src="/logo.png" 
                   alt="BraryLabs Logo" 
-                  className="h-7 w-auto [filter:brightness(0)_saturate(100%)_invert(37%)_sepia(98%)_saturate(1401%)_hue-rotate(213deg)_brightness(101%)_contrast(101%)]"
+                  className="h-7 w-auto"
                 />
                 <span className="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
                   BraryLabs
