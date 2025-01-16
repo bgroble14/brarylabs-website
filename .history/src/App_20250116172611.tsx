@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { Book, ArrowRight } from 'lucide-react';
 
 interface SectionProps {
   title: string;
