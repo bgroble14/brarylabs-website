@@ -1,5 +1,5 @@
 import React from 'react';
-import { Book, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface SectionProps {
   title: string;
@@ -30,14 +30,14 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50/30">
       {/* Navigation */}
       <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-6 py-8">
+        <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <div className="flex items-center group">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/BraryLabs_v2_Color.png" 
                   alt="BraryLabs Logo" 
-                  className="h-24 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
+                  className="h-20 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
                 />
               </div>
             </div>
@@ -87,9 +87,9 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <img 
-                  src="/logo-transparent.png" 
+                  src="/BraryLabs_v2_Color.png" 
                   alt="BraryLabs Logo" 
-                  className="h-21 w-auto mix-blend-multiply"
+                  className="h-20 w-auto mix-blend-multiply"
                 />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-md">

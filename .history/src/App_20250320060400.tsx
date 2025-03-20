@@ -1,5 +1,5 @@
 import React from 'react';
-import { Book, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 interface SectionProps {
   title: string;
@@ -34,10 +34,11 @@ function App() {
           <div className="flex justify-between items-center">
             <div className="flex items-center space-x-3">
               <div className="flex items-center group">
-                <Book className="h-7 w-7 text-blue-600 transform group-hover:scale-110 transition-transform duration-300" />
-                <span className="text-2xl font-bold ml-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
-                  BraryLabs
-                </span>
+                <img 
+                  src="/BraryLabs_v2_Color.png" 
+                  alt="BraryLabs Logo" 
+                  className="h-20 w-auto transform group-hover:scale-110 transition-transform duration-300 mix-blend-multiply"
+                />
               </div>
             </div>
             <div className="flex space-x-8">
@@ -63,9 +64,6 @@ function App() {
               Streamline your library operations with our cutting-edge software solution.
               Designed for the modern librarian.
             </p>
-            <p className="text-lg text-gray-500 mb-16 font-medium">
-              Emphasizing data and reporting solutions
-            </p>
 
             {/* Service Sections */}
             <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto px-4">
@@ -75,7 +73,7 @@ function App() {
               />
               <Section
                 title="Professional Services"
-                description="Expert consultation and support to help you optimize your library management processes."
+                description="Expert consultation and support to help you optimize your library management processes. We specialize in data analytics and comprehensive reporting solutions."
               />
             </div>
           </div>
@@ -88,10 +86,11 @@ function App() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <div className="flex items-center space-x-2 mb-6">
-                <Book className="h-6 w-6 text-blue-600" />
-                <span className="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-blue-800">
-                  BraryLabs
-                </span>
+                <img 
+                  src="/BraryLabs_v2_Color.png" 
+                  alt="BraryLabs Logo" 
+                  className="h-20 w-auto mix-blend-multiply"
+                />
               </div>
               <p className="text-gray-600 text-lg leading-relaxed max-w-md">
                 Making library management simple and efficient for the modern world.
