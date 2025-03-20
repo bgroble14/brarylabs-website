@@ -23,7 +23,7 @@ const Section: React.FC<SectionProps> = ({ title, description }) => (
     </CardHeader>
     <CardFooter>
       <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 group">
-        <a href="/contact">
+        <a href="#contact">
           Contact Us
           <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
         </a>

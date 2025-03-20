@@ -4,7 +4,6 @@ import { ArrowRight } from 'lucide-react';
 import { Button } from "./components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./components/ui/card";
 import { NavBar } from "./components/navbar";
-import { Footer } from "./components/footer";
 
 interface SectionProps {
   title: string;
@@ -22,11 +21,9 @@ const Section: React.FC<SectionProps> = ({ title, description }) => (
       </CardDescription>
     </CardHeader>
     <CardFooter>
-      <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 group">
-        <a href="/contact">
-          Contact Us
-          <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
-        </a>
+      <Button className="w-full bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 group">
+        Contact Us
+        <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
       </Button>
     </CardFooter>
   </Card>
@@ -74,7 +71,51 @@ function App() {
       </div>
 
       {/* Footer */}
-      <Footer />
+      <footer className="bg-white dark:bg-gray-800 mt-24 border-t border-gray-100 dark:border-gray-700">
+        <div className="max-w-6xl mx-auto px-6 py-16">
+          <div className="grid md:grid-cols-2 gap-12">
+            <div>
+              <div className="flex items-center space-x-2 mb-6">
+                <img 
+                  src="/BraryLabs_v2_Color.png" 
+                  alt="BraryLabs Logo" 
+                  className="h-20 w-auto mix-blend-multiply dark:mix-blend-screen"
+                />
+              </div>
+              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed max-w-md">
+                Making library management simple and efficient for the modern world.
+              </p>
+            </div>
+            <div className="grid grid-cols-2 gap-8">
+              <div>
+                <h3 className="font-semibold text-lg mb-6 text-gray-900 dark:text-gray-100">Support</h3>
+                <ul className="space-y-4">
+                  <li>
+                    <a href="#docs" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      Documentation
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#guides" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      Guides
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="font-semibold text-lg mb-6 text-gray-900 dark:text-gray-100">Company</h3>
+                <ul className="space-y-4">
+                  <li>
+                    <a href="#blog" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
